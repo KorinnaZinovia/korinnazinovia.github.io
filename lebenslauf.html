@@ -7,36 +7,38 @@
 	<meta name="description" content="Persönliche Webseite von Korinna Zinovia Weber">
 	<meta name="keywords" content="Korinna Zinovia Weber, Korinna Weber, Denkmalpflege, Architektur">
 	<meta name="author" content="Korinna Zinovia Weber">
-<link rel="stylesheet" href="./site/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 <style>
+	  /* Globale Schriftart */
+    body {
+      font-family: 'Merriweather', serif;
+    }
 </style>
 </head>
 <body>
 
 <!-- Navbar -->
-
-<div class="w3-top w3-center">
-  <div class="w3-bar w3-blue-gray w3-card w3-large" style="width:100%">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="./index.html" class="w3-bar-item w3-button w3-padding-medium">Zurück</a>
-    <a href="#Berat" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Beratungsangebote</a>
-	<a href="#buch" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Bücher</a>
-	<a href="#vort" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Vorträge</a>
-	<a href="#port" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Portrait</a>
-	<a href="#kontakt" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Kontakt</a>
+ <div class="w3-top w3-theme-l1 w3-wide w3-padding w3-card" style="width:100%">
+  <div class="w3-bar w3-blue-gray w3-card w3-large w3-center w3-hide-small" style="width:100%">
+  	<a href="index.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Start</a> 
+	<a href="buecher.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Bücher</a> 
+	<a href="angebote.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Angebote</a>
+	<a href="lebenslauf.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Portrait</a>
+	<a href="#Kontakt" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Kontakt</a>
   </div>
 </div>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-blue-gray w3-large w3-padding-medium">
-  <a href="#" class="w3-button w3-blue-gray w3-margin-right">Start</a> <a href="#kontakt" class="w3-button w3-blue-gray w3-margin-right">Kontakt</a>
+<header class="w3-container w3-top w3-hide-large w3-hide-medium w3-blue-gray w3-large w3-padding-medium">
+  <a href="index.html" class="w3-button w3-blue-gray w3-margin-right">Start</a> <a href="index.html#kontakt" class="w3-button w3-blue-gray w3-margin-right">Kontakt</a>
 </header>
 
-
 <!-- Banner -->
-<img src="./img/portrait.jpg" alt="Strati" style="width:100%">
+<img src="img/portrait.jpg" alt="Strati" style="width:100%">
 
-    <!-- Start -->
+<!-- Start -->
   
     <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="start">
     <h1 class="w3-wide">Dr. Korinna Zinovia Weber</h1>
@@ -100,11 +102,23 @@ im Oktober 2023, Druckkosten gefördert durch die Geschwister Boehringer Ingelhe
 	<p class="w3-justify">Seit 2023 engagiere ich mich ehrenamtlich in der Auswahlkommission der Studienstiftung.</p>
 	</div>
 	
-	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="start">
-   	<p class="w3-justify"><a href="./index.html">Zurück zum Start.</a></p>
+<!-- Zurück zum Start -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+	<a href="./index.html"><button class="w3-button w3-blue-grey">Zurück zum Start</button></a>
+	</div>
+
+<!-- Kontakt -->	
+ <div class="w3-theme-d3">
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Kontakt">
+	<p class="w3-center" id="kontakt">Lust auf eine Zusammenarbeit? Schreiben Sie eine Email an </p>
+	<p class="w3-center"><b>kori.z.weber[at]gmail.com</b></p>
+	
+	<p class="w3-center" id="kontakt">Oder über <a href="https://linkedin.com/in/dr-korinna-zinovia-weber-05516996">LinkedIn</a> </p>
+	
 	</div>
 	
-	<!-- Impressum -->
+	
+<!-- Impressum -->
 	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="impressum">
 	<p class="w3-center" id="kontakt"><a href="./impressum.html">Impressum, Datenschutz usw.</a></p>
 	</div>
