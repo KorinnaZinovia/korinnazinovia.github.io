@@ -7,37 +7,42 @@
 	<meta name="description" content="Persönliche Webseite von Korinna Zinovia Weber">
 	<meta name="keywords" content="Korinna Zinovia Weber, Korinna Weber, Denkmalpflege, Architektur">
 	<meta name="author" content="Korinna Zinovia Weber">
-<link rel="stylesheet" href="./site/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 <style>
+  /* Globale Schriftart */
+    body {
+      font-family: 'Merriweather', serif;
+    }
 </style>
 </head>
 <body>
 
 <!-- Navbar -->
-
-<div class="w3-top w3-center">
-  <div class="w3-bar w3-blue-gray w3-card w3-large" style="width:100%">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-medium">Start</a>
-    <a href="#Berat" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Beratungsangebote</a>
-	<a href="#buch" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Bücher</a>
-	<a href="#vort" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Vorträge</a>
-	<a href="#port" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Portrait</a>
-	<a href="#kontakt" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Kontakt</a>
+ <div class="w3-top w3-theme-l1 w3-wide w3-padding w3-card" style="width:100%">
+  <div class="w3-bar w3-blue-gray w3-card w3-large w3-center w3-hide-small" style="width:100%">
+  	<a href="#" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Start</a> 
+	<a href="buecher.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Bücher</a> 
+	<a href="angebote.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Angebote</a>
+	<a href="lebenslauf.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Portrait</a>
+	<a href="#Kontakt" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Kontakt</a>
   </div>
 </div>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-blue-gray w3-large w3-padding-medium">
+<header class="w3-container w3-top w3-hide-large w3-hide-medium w3-blue-gray w3-large w3-padding-medium">
   <a href="#" class="w3-button w3-blue-gray w3-margin-right">Start</a> <a href="#kontakt" class="w3-button w3-blue-gray w3-margin-right">Kontakt</a>
 </header>
 
 
-<!-- Image -->
-<img src="./img/kreislauf.jpg" alt="kreislauf" style="width:100%">
+
+<!-- Banner -->
+ <div>
+<a href="buecher.html"><img src="img/index.jpg" alt="buecher" style="width:100%" class="w3-hover-opacity"></a>		
+</div>
 
     <!-- Start -->
-  
     <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="start">
     <h1 class="w3-wide">Dr. Korinna Zinovia Weber</h1>
 	<h2 class="w3-wide">Bauwerke erforschen, erzählen, verstehen</h2>
@@ -51,169 +56,165 @@
 
 
 <!-- Bücher und Veröffentlichungen -->
-  <div class="w3-blue-grey" id="buch">
+  <div class="w3-theme-l1" id="buch">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">Bücher und Veröffentlichungen</h2>
       <p class="w3-opacity w3-center"><i>Aktuelle Projekte und Neuerscheinungen</i></p><br>
 	  
-	  <p class="w3-justify">Spannende Erkenntnisse und Geschichten über Architektur für alle.</p>
+	  <p class="w3-justify">Spannende Erkenntnisse und Geschichten über Architektur müssen weitergetragen werden.</p>
+	
+	  
+
+<!-- Panels -->	
+ <div class="w3-row-padding">
 	
 	<!-- Erste Säule -->
-		<!-- 1.1 Objekt -->
-		<div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-       <div class="w3-third w3-margin-bottom">
-          <a href="https://architechne.ch/meinneuesalteshaus.html"><img src="./img/cover-deutsch.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity"></a>
-		  
-          <div class="w3-container w3-white">
-		   <p class="w3-opacity">#Buch #Deutsch #French #English #Greek #Hungarian #Dutch #Italian</p>
-            <p><b>"Mein NEUES altes Haus - eine Geschichte für Kinder über Umbau statt Neubau"</b></p>
-            <p class="w3-opacity">Korinna Zinovia Weber, Meruert Zharekesheva</p>
-            <p>Dieses Buch erzählt die Geschichte der kleinen Lilian, deren hellblaues Haus abgerissen werden soll. Doch dann fragt sich Lilian, warum wir unsere Häuser eigentlich nicht zuerst reparieren und sie schreibt dem Besitzer einen Brief. Hier wird das Thema Nachhaltigkeit und Umbau in Architektur liebevoll den ganz Kleinen näher gebracht.</p>
-			<p class="w3-opacity">21x21cm, Hardcover, 20 feste Seiten für kleine Hände, Architechne, Print-on-demand, 2024, erschienen in sieben Sprachen</p>
-		   <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://architechne.ch/">Jetzt bestellen! </button>
-            <button class="w3-button w3-blue-grey w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://architechne.ch/meinneuesalteshaus.html">Mehr Informationen</button></a>
-          </div>
-		  <!-- 1.2 Objekt -->
-		  <div class="w3-panel w3-white">
-		  <a href="https://www.lars-mueller-publishers.com/transcalar-prospects-climate-crisis/"><img src="./img/Transcalar.jpg" alt="Transcalar" style="width:100%" class="w3-hover-opacity"></a>
-		   <p><b>Transcalar Prospects in Climate Crisis- architectural research in re/action</b></p>
-            <p class="w3-opacity">Jeffrey Huang, Dieter Dietz, Laura Trazic, Korinna Zinovia Weber (Eds.)</p>
-            <p>This book offers a vital compilation of research projects and essays reflecting the investigative efforts at EPFL Architecture.</p>
-			<p class="w3-opacity">Design: Hubertus Design, Lars Müller Publishers, 16,5 × 24 cm, 384 Seiten, ca. 280 Abb., softcover, 2024, ISBN 978-3-03778-765-6, English
-			</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://www.lars-mueller-publishers.com/transcalar-prospects-climate-crisis/">Order now!</button></a>
-		  </div>
-        </div>
-		
-      <!-- Zweite Säule -->
-        <div class="w3-third w3-margin-bottom">
-          <div class="w3-container w3-white">
-		  <a href="https://editionsdelavillette.fr/produit/grands-ensembles-en-heritage/"><img src="./img/million.jpg" alt="million" style="width:100%" class="w3-hover-opacity"></a>
-            <p class="w3-opacity">#Buch #French #PhD</p>
-		  <p><b>Grands ensembles en héritage. L’opération Million de Candilis, Josic et Woods (1954-2024)</b></p>
-		   <p class="w3-opacity">Korinna Zinovia Weber</p>
-		   <p>Construire un trois-pièces pour moins d’un million d’anciens francs (environ 23 000 €). Tel est l’objectif de l’opération Million lancée en France en 1954 par le gouvernement ; la crise du logement est alors à son apogée. L’agence de Georges Candilis, Alexis Josic et Shadrach Woods remporte le concours organisé l’année suivante et construira près de 4 300 logements sur vingt-huit sites. Tout à tour enquête et plaidoyer, l’ouvrage de Korinna Zinovia Weber relate cet épisode majeur et méconnu de la construction des années d’après-guerre et milite pour que les grands ensembles soient reconnus en tant que patrimoine architectural. Que reste-t-il de l’opération Million soixante-dix ans après sa mise en oeuvre ?</p>
-			<p class="w3-opacity">Les Editions de la Villette, 287 pages, 117 Abb., Format 15 x 22 cm, 1. Auflage 2025, Hardcover, ISBN 978-2375560563, Francais</p>
-		    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://editionsdelavillette.fr/produit/grands-ensembles-en-heritage/">Je commende! </a></button>
-          </div>
-		 
-		 
-        </div>
-		<!-- Dritte Säule -->
-     
-		    <div class="w3-third w3-margin-bottom">
-		   <img src="./img/kirche_gif.gif" alt="Langensteinen" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-		  <p class="w3-opacity">#Buch #Deutsch</p>
-            <p><b>Die Griechisch-Orthodoxe Allerheiligenkirche in München – Ein Bauprojekt der Ökumene als kulturelle und geistige Brücke zwischen Ost und West</b></p>
-            <p class="w3-opacity">Korinna Zinovia Weber</p>
-            <p>Dieses Buch dokumentiert erstmals die umfangreiche (Um-)Baugeschichte mit bisher unpubliziertem Archivmaterial und trägt damit zur langfristigen Erhaltung und historischen Einordnung des heutigen Bauwerks bei.</p>
-			<p class="w3-opacity">Kunstverlag Josef Fink, 160 Seiten, 117 Abb., Format 19 x 24 cm, 1. Auflage 2023, Verarbeitung: Hardcover Fadenheftung, ISBN 978-3-95976-457-5, Deutsch</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://kunstverlag-fink.de/titel/die-griechisch-orthodoxe-allerheiligenkirche-in-muenchen/">Jetzt bestellen! </button>
-			<button class="w3-button w3-blue-grey w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="./buecher.html">Mehr Informationen</button></a>
-          </div>
-		  <div class="w3-panel w3-white">
-		  <a href="https://www.routledge.com/The-Monumental/Loukaki/p/book/9781032857497"><img src="./img/loukaki.jpg" alt="Transcalar" style="width:100%" class="w3-hover-opacity"></a>
-		  <p class="w3-opacity">#Article #English</p>
-		   <p><b>Postwar social housing: the (anti)monumentality of Georges Candilis</b></p>
-            <p class="w3-opacity">Korinna Zinovia Weber</p>
+    <div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card" style="padding:0">
+			<a href="b_million.html">
+			<img src="img/million.jpg" alt="million" style="width:100%; height:auto;" class="w3-hover-opacity"></a>
+			<div style="padding:16px;">
+        	<p><b>Grands ensembles en héritage. L’opération Million de Candilis, Josic et Woods (1954-2024)</b></p>
+			<p class="w3-opacity">Korinna Zinovia Weber</p>
+			<p>Construire un trois-pièces pour moins d’un million d’anciens francs (environ 23 000 €). Tel est l’objectif de l’opération Million lancée en France en 1954 par le gouvernement. L’agence de Georges Candilis, Alexis Josic et Shadrach Woods remporte le concours organisé l’année suivante et construira près de 4 300 logements sur vingt-huit sites. L’ouvrage de Korinna Zinovia Weber relate cet épisode majeur et méconnu de la construction des années d’après-guerre et milite pour que les grands ensembles soient reconnus en tant que patrimoine architectural.</p>
+			<button class="w3-button w3-khaki w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">
+			<a href="https://editionsdelavillette.fr/produit/grands-ensembles-en-heritage/">Je commande! </button></a>
+       		</div>
+		</div>
+	</div>
+
+	 
+	<!-- Zweite Säule -->
+    <div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card" style="padding:0">
+        	<a href="b_steinhausen.html">
+			<img src="img/Steinhausen.jpg" alt="Steinhausen" style="width:100%; height:auto;" class="w3-hover-opacity"></a>
+			<div style="padding:16px;">  
+        	<p><b>Architektur- und Kunstführer. Kirchen- und Begegnungszentrum Chilematt, Steinhausen</b></p>
+        	<p class="w3-opacity">Korinna Zinovia Weber, Lou Sophie Dörig</p>
+        	<p>Der Architektur- und Kunstführer über das Chilematt in Steinhausen erscheint im November 2025. Das Buch soll einen kompakten Einblick und neuen Zugang zum Verständnis des Baus von Ernst Gisel gewähren.</p>
+			<button class="w3-button w3-khaki w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://kunstverlag-fink.de/">Bald bestellen! </button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Dritte Säule -->
+    <div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card" style="padding:0">
+        	<a href="b_alteshaus.html">
+			<img src="img/cover-deutsch.jpg" alt="San Francisco" style="width:100%; height:auto;" class="w3-hover-opacity"></a>
+			<div style="padding:16px;">  
+        	<p><b>"Mein NEUES altes Haus - eine Geschichte für Kinder über Umbau statt Neubau"</b></p>
+			<p class="w3-opacity">#Buch #Deutsch #French #English #Greek #Hungarian #Dutch #Italian</p>
+        	<p class="w3-opacity">Korinna Zinovia Weber, Meruert Zharekesheva</p>
+        	<p>Dieses Buch erzählt die Geschichte der kleinen Lilian, deren hellblaues Haus abgerissen werden soll. Doch dann fragt sich Lilian, warum wir unsere Häuser eigentlich nicht zuerst reparieren und sie schreibt dem Besitzer einen Brief. Hier wird das Thema Nachhaltigkeit und Umbau in Architektur liebevoll den ganz Kleinen näher gebracht.</p>
+			<button class="w3-button w3-khaki w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://architechne.ch/">Jetzt bestellen! </button>
+        	<button class="w3-button w3-blue-grey w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://architechne.ch/meinneuesalteshaus.html">Mehr Informationen</button></a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Vierte Säule -->
+    <div class="w3-third w3-margin-bottom">
+		<div class="w3-white w3-card" style="padding:0">
+			<a href="b_transcalar.html">
+			<img src="img/Transcalar.jpg" alt="Transcalar" style="width:100%; height:auto;" class="w3-hover-opacity"></a>
+			<div style="padding:16px;">
+			<p><b>Transcalar Prospects in Climate Crisis- architectural research in re/action</b></p>
+        	<p class="w3-opacity">Jeffrey Huang, Dieter Dietz, Laura Trazic, Korinna Zinovia Weber (Eds.)</p>
+        	<p>This book offers a vital compilation of research projects and essays reflecting the investigative efforts at EPFL Architecture.</p>
+            <button class="w3-button w3-khaki w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://www.lars-mueller-publishers.com/transcalar-prospects-climate-crisis/">Order now!</button></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Fünfte Säule -->
+    <div class="w3-third w3-margin-bottom">
+		<div class="w3-white w3-card" style="padding:0">
+			<a href="https://www.routledge.com/The-Monumental/Loukaki/p/book/9781032857497">
+			<img src="img/loukaki.jpg" alt="Transcalar" style="width:100%; height:auto;" class="w3-hover-opacity"></a>
+			<div style="padding:16px;">  
+			<p class="w3-opacity">#Article #English</p>
+			<p><b>Postwar social housing: the (anti)monumentality of Georges Candilis</b></p>
+        	<p class="w3-opacity">Korinna Zinovia Weber</p>
 			<p class="w3-opacity">in: On Monumentality, Argyro Loukaki (Ed.)</p>
-            <p>This article deals with the monumentality aspect of the oeuvre of Georges Candilis.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://www.routledge.com/The-Monumental/Loukaki/p/book/9781032857497">Order now!</button></a>
-		  </div>
-        </div>
-		
- 
-      </div>
-    </div>
-  </div>
+        	<p>This article deals with the monumentality aspect of the oeuvre of Georges Candilis.</p>
+        	<button class="w3-button w3-khaki w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://www.routledge.com/The-Monumental/Loukaki/p/book/9781032857497">Order now!</button></a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Sechste Säule -->
+    <div class="w3-third w3-margin-bottom">
+		<div class="w3-white w3-card" style="padding:0">
+			<a href="b_münchen.html">
+			<img src="img/kirche_gif.gif" alt="Langensteinen" style="width:100%; height:auto; display:block;" class="w3-hover-opacity"></a>
+			<div style="padding:16px;">
+			<p class="w3-opacity">#Buch #Deutsch</p>
+        	<p><b>Die Griechisch-Orthodoxe Allerheiligenkirche in München – Ein Bauprojekt der Ökumene als kulturelle und geistige Brücke zwischen Ost und West</b></p>
+        	<p class="w3-opacity">Korinna Zinovia Weber</p>
+        	<p>Dieses Buch dokumentiert erstmals die umfangreiche (Um-)Baugeschichte mit bisher unpubliziertem Archivmaterial und trägt damit zur langfristigen Erhaltung und historischen Einordnung des heutigen Bauwerks bei.</p>
+        	<button class="w3-button w3-khaki w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"><a href="https://kunstverlag-fink.de/titel/die-griechisch-orthodoxe-allerheiligenkirche-in-muenchen/">Jetzt bestellen! </button>
+			</div>
+		</div>
+	</div>
 	
 		<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
-	<a href="./buecher.html"><button class="w3-button w3-blue-grey">Mehr über Bücher und Veröffentlichungen</button></a>
+	<a href="./buecher.html"><button class="w3-button w3-khaki">Mehr über Bücher und Veröffentlichungen</button></a>
 	</div>
 	</div>
-
-
+</div>
+</div>
+</div>
 	
-	<!-- Lesungen -->
+	
+<!-- Lesungen -->
   <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="vort">
-    <h3 class="w3-left-align">Vorträge und Lesungen</h3>
-    <p class="w3-justify">Im Rahmen meines aktuellen Buches «Die Griechisch-Orthodoxe Allerheiligenkirche in München» biete ich Vorträge und Lesungen mit verschiedenen Schwerpunkten an:
-	 <ul class="w3-left-align">
-		<li>Ein Umbau der 1990er: Die Gr.-Orth. Allerheiligenkirche von Robert Brannekämper und die Aufschlüsselung ihrer Gestalt</li>
-		<li>Proaktive Denkmalpflege: Was bedeutet es ein so junges Gebäude zu untersuchen?</li>
-		<li>Unbekannte Münchner Stadtgeschichte: Die Münchner Allerseelenkirche von 1929 des Architekten Richard Steidle</li>
-		<li>Der Weg vom Forschungsbeginn zum gedruckten Buch in 14 Monaten (an junge Wissenschaftler gerichtet)</li>
-	</ul> 
-	</p>
-    <p class="w3-justify">Die Vorträge werden auf Deutsch, Englisch und Französisch vor Ort und digital angeboten. Ich bringe eine langjährige Vortragserfahrung mit und mir ist es wichtig den Vortrag an das jeweilige Publikum anzupassen. </p>
+    <h3 class="w3-left-align">Vorträge, Lesungen und Beratungsangebote</h3>
+	<p class="w3-justify">Sie wollen mehr über die Geschichte eines Gebäudes erfahren oder das Gebäude (Kirche, Firmensitz, Wohnhaus...) einem breiteren Publikum vorstellen?</p>
+	<p class="w3-justify">Sie wollen eine Publikation verfassen oder gestalten?</p>
+	<p class="w3-justify">Sie wissen nicht wohin mit alten Kisten voller Pläne, Schriftverkehr und Fotos eines Architekturbüros?</p>
+	    <p class="w3-justify">Haben Sie Interesse Ihre Veranstaltung mit einem unterhaltenden Vortrag über Architektur zu bereichern? Dann melden Sie sich gerne bei mir.</p>
 	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
-	<a href="./vortrag.html"><button class="w3-button w3-blue-grey">Mehr über Vorträge</button></a>
+	<a href="angebote.html"><button class="w3-button w3-blue-grey">Mehr über Vorträge und Beratungsangebote</button></a>
 	</div>
 	</div>	
 
 	
-<!-- Image -->
-<img src="./img/kinderbuch.jpg" alt="kinderbuch" style="width:100%">
-	
-	  <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="port">
+
+<!-- Portrait -->
+<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="port">
     <h3 class="w3-left-align">Portrait</h3>
 	<p class="w3-justify">
-		Ich bin als Wisseschaftlerin im Bereich Architektur und Denkmalpflege sowie als freiberufliche Autorin tätig. Mich begeistert die Forschung über Architektur und Projekte an ihr Ziel zu bringen. Gerne setze ich mich für die Anerkennung von Gebäuden ein, die nicht unmittelbare Wertschätzung in unserer Gesellschaft erfahren. Als gebürtige Münchnerin studierte ich Architektur an der
-TU München und der ENSA La Villette. Anschliessend promovierte ich an der EPFL und wurde Lehrbeauftragte und Projektmanagerin der ETH Zürich. Seit mehreren Jahren engagiere ich mich in der Architekturvermittlung für ein nicht-Fachpublikum. Das Thema Umbau und Erhalten liegt mir besonders am Herzen. 
-		<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
-	<a href="./lebenslauf.html"><button class="w3-button w3-blue-grey">Mehr über Ihre Expertin</button></a>
-	</div>
-		        <img src="./img/pic.jpg" class="w3-circle" alt="Korinna Weber" style="width:300px">
-	</div>
+	Ich bin als Wisseschaftlerin im Bereich Architektur und Denkmalpflege sowie als freiberufliche Autorin tätig. Mich begeistert die Forschung über Architektur und Projekte an ihr Ziel zu bringen. Gerne setze ich mich für die Anerkennung von Gebäuden ein, die nicht unmittelbare Wertschätzung in unserer Gesellschaft erfahren. 
+	</p>
+
+	<img src="img/pic.jpg" class="w3-circle" alt="Korinna Weber" style="width:300px; margin:auto;">
+</div>
 	
-	<!-- Beratungsangebote -->
-	 <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Berat">
-	 <h3 class="w3-left-align">Beratungsangebote</h3>
-	 
-<div id="members" class="w3-container w3-padding-32">
-<div class="w3-row w3-center">
-
-<div class="w3-third">
-<p class="w3-justify"> Sie wollen mehr über die Geschichte eines Gebäudes erfahren oder das Gebäude (Kirche, Firmensitz, Wohnhaus...) einem breiteren Publikum vorstellen?</p>
-<img src="./img/gutachten.jpg" class="w3-circle" alt="Gutachten" style="width:60%">
-<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
-	<a href=""><button class="w3-button w3-blue-gray">Historische Aufarbeitung (mehr Infos demnächst)</button></a>
-	
+<!-- Mehr über Ihre Expertin -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+	<a href="lebenslauf.html"><button class="w3-button w3-blue-grey">Mehr über Ihre Expertin</button></a>
 	</div>
-</div>
-
-<div class="w3-third">
-<img src="./img/buecher.jpg" class="w3-circle" alt="Publikationsberatung" style="width:60%">
-<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
-	<a href="./publikation.html"><button class="w3-button w3-blue-gray">Publikationsbegleitung</button></a>
-	<p class="w3-justify">Sie wollen eine Publikation verfassen oder gestalten?</p>
-	</div>
-</div>
-
-<div class="w3-third">
-<p class="w3-justify">Sie wissen nicht wohin mit alten Kisten voller Pläne, Schriftverkehr und Fotos eines Architekturbüros?</p>
-<img src="./img/nachlass.jpg" class="w3-circle" alt="Nachlassbewertung" style="width:60%">
-<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
-	<a href="./nachlass.html"><button class="w3-button w3-blue-gray">Nachlassbewertung</button></a>
-	</div>
-</div>
 
 </div>
 </div> 
 </div> 
-	
-	<!-- Kontakt -->	
-	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="kontakt">
+
+
+
+<!-- Kontakt -->	
+ <div class="w3-theme-d3">
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Kontakt">
 	<p class="w3-center" id="kontakt">Lust auf eine Zusammenarbeit? Schreiben Sie eine Email an </p>
 	<p class="w3-center"><b>kori.z.weber[at]gmail.com</b></p>
 	
-	<p class="w3-center" id="kontakt">Oder über <a href="linkedin.com/in/dr-korinna-zinovia-weber-05516996">LinkedIn</a> </p>
+	<p class="w3-center" id="kontakt">Oder über <a href="https://linkedin.com/in/dr-korinna-zinovia-weber-05516996">LinkedIn</a> </p>
 	
 	</div>
 	
 	
-	<!-- Impressum -->
+<!-- Impressum -->
 	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="impressum">
 	<p class="w3-center" id="kontakt"><a href="./impressum.html">Impressum, Datenschutz usw.</a></p>
 	</div>
@@ -244,5 +245,3 @@ function w3_close() {
 
 </body>
 </html>
-
-
