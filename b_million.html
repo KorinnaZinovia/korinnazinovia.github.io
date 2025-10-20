@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Korinna Zinovia Weber</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Persönliche Webseite von Korinna Zinovia Weber">
+	<meta name="keywords" content="Korinna Zinovia Weber, Korinna Weber, Denkmalpflege, Architektur">
+	<meta name="author" content="Korinna Zinovia Weber">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+<style>
+    .book-panel {
+    width: 100%;
+    height: 320px; /* Gesamthöhe des Panels (inkl. Bild und ggf. Text) */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .book-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Bild wird zugeschnitten, um Fläche zu füllen */
+    display: block;
+  }
+
+  .w3-row-padding .w3-third {
+    display: flex;
+    flex-direction: column;
+  }
+   .book-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .book-cover {
+      width: 220px;
+      min-width: 180px;
+      height: auto;
+      object-fit: cover;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 8px #eee;
+    }
+
+    .book-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .book-title {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+	.book-subtitle {
+  	 font-size: 1.25em;
+   	 color: #666;
+  	 margin-bottom: 0.5em;}
+
+    .book-details {
+      font-size: 0.95em;
+      color: #666;
+      margin-top: 0.5em;}
+
+
+    /* Responsive Design: Bei kleinen Bildschirmen Bild oben */
+    @media (max-width: 600px) {
+      .book-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;}
+      .book-cover {
+        margin-bottom: 15px;
+        margin-right: 0;}
+      .book-info {
+        align-items: center;}}
+
+	  .fixed-button {
+    width: 180px;
+    height: 45px;
+    font-size: 1.1em;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    padding: 0;}
+  /* Globale Schriftart */
+    body {
+      font-family: 'Merriweather', serif;
+    }
+	 
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+	<div class="w3-top w3-theme-l1 w3-wide w3-padding w3-card" style="width:100%">
+  <div class="w3-bar w3-blue-gray w3-card w3-large w3-center w3-hide-small" style="width:100%">
+  	<a href="index.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Start</a> 
+	<a href="buecher.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Bücher</a> 
+	<a href="angebote.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Angebote</a>
+	<a href="lebenslauf.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Portrait</a>
+	<a href="#Kontakt" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Kontakt</a>
+  </div>
+</div>
+
+<!-- Top menu on small screens -->
+	<header class="w3-container w3-top w3-hide-large w3-hide-medium w3-blue-gray w3-large w3-padding-medium">
+  		<a href="index.html" class="w3-button w3-blue-gray w3-margin-right">Start</a> <a href="index.html#kontakt" class="w3-button w3-blue-gray w3-margin-right">Kontakt</a>
+	</header>
+
+<!-- Banner -->
+	<img src="img/candilis.jpg" alt="Strati" style="width:100%">
+
+<!-- Page content -->
+<div class="w3-container w3-content w3-padding-24" style="max-width:800px" id="start">
+
+ <!-- Buchcover und Link -->	
+ <div class="book-container">
+    <img src="img/million.jpg" alt="Buchtitel" class="book-cover">
+    <div class="book-info">
+      	<div class="book-title">Grands ensembles en héritage.</div>
+      	<div class="book-subtitle">L’opération Million de Candilis, Josic et Woods (1954-2024).</div>	
+			<div class="book-details">
+			 Korinna Zinovia Weber<br>
+			     Date de parution Avril 2025<br>
+			     Les Editions de la Villette<br>
+        	 ISBN 978-2-37556-056-3<br>
+           288 pages<br>
+           Français<br>
+      		</div>
+		 <!-- Button jetzt Bestellen -->
+      	 <a class="w3-button w3-khaki w3-margin-top fixed-button" href="https://editionsdelavillette.fr/produit/grands-ensembles-en-heritage/" target="_blank">Je commande!</a>
+    	</div>
+    </div>
+ </div>
+
+ <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="buch">
+ 
+ <!-- Buchbeschrieb -->	
+	<p class="w3-justify">Construire un trois-pièces pour moins d’un million d’anciens francs (environ 23 000 €). Tel est l’objectif de l’opération Million lancée en France en 1954 par le gouvernement; la crise du logement est alors à son apogée. 
+    L’agence de Georges Candilis, Alexis Josic et Shadrach Woods remporte le concours organisé l’année suivante et construira près de 4 300 logements sur vingt-huit sites. Tour à tour enquête et plaidoyer, 
+    l’ouvrage de Korinna Zinovia Weber relate cet épisode majeur et méconnu de la construction des années d’après-guerre et milite pour que les grands ensembles soient reconnus en tant que patrimoine architectural. 
+    Que reste-t-il de l’opération Million soixante-dix ans après sa mise en oeuvre? Partant du terrain, l’autrice dresse un état des lieux, fait le relevé des bâtiments, ausculte leur matérialité, retrace leurs transformations successives: 
+    rénovations plus ou moins lourdes, démolitions partielles ou totales. Elle revient sur la genèse de l’opération et souligne la pertinence des choix architecturaux d’origine: organisation des bâtiments, typologie des logements, innovations constructives. 
+    Sensible et engagée, Korinna Zinovia Weber nous conduit au cœur de l’opération Million à la rencontre de toutes ses parties prenantes, sans oublier les habitants mobilisés pour sauvegarder leurs lieux de vie face aux intérêts financiers et politiques. 
+    Dénuée de tout fétichisme pour l’architecture moderne, l’autrice construit une connaissance utile et opératoire sur les grands ensembles, et nous invite à réapprendre à les transformer et à les habiter dans le contexte de ce premier quart du XXIe siècle confronté à une double crise, du logement et du climat.
+</p><br>
+
+ <!-- Details Titel 1 -->	
+ <h3 class="w3-opacity w3-left-align">Vestiges et Vivants: un film, un livre</h3>
+ <p class="w3-opacity w3-left-align"><i>Un événement de Philippe Troyon et Korinna Zinovia Weber</i></p>
+	
+	<div class="w3-display-container" style="width:100%">
+	 <img src="img/affiche.JPG" alt="affiche" style="width:100%">
+  	<div class="w3-display-bottomright w3-padding-medium w3-opacity w3-white"> Foto: Roland Züger
+  	</div>
+</div>
+	
+	<p class="w3-justify">Le passé croise l’actualité sans perdre de pertinence: les
+portraits des habitants de la cité Montillet au Blanc-Mesnil, filmés entre la démolition
+de la cité construite par Candilis-Josic-Woods et leur relogement, ont imprégné la recherche
+scientifique menée vingt ans plus tard sur cette architecture oubliée, essentielle au quotidien de nombreux
+habitants. L’habitat n’est pas qu’un agencement de murs mais aussi de vivants qui habitent parfois des vestiges, une
+réalité que la politique oublie bien souvent.
+</p>
+	<br>
+
+<!-- Ceci pourrait aussi vous intéresser -->	
+ <h3 class="w3-opacity w3-left-align">Ceci pourrait aussi vous intéresser:</h3>
+<div class="w3-row-padding">
+ <!-- Buch -->
+    <div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card book-panel">
+			<a href="b_transcalar.html">
+			<img src="img/Transcalar.jpg" alt="Transcalar" class="w3-hover-opacity"></a>
+		</div>
+	</div>
+
+  
+ <!-- Artikel -->
+	<div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card book-panel">
+			<a href="https://www.abebooks.com/FRENCH-ARTISTIC-CULTURE-CENTRAL-EAST-EUROPEAN-MODERN/22761446115/bd">
+			<img src="img/art.jpg" alt="Transcalar" class="w3-hover-opacity"></a>
+		</div>
+	</div>
+  </div>
+
+<!-- Publikationsberatung -->	
+  <p class="w3-center"><b>Vous souhaitez réaliser votre projet de livre? Je serai ravi de vous accompagner dans votre projet !</b></p>
+
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+	<a href="angebote.html#publikation"><button class="w3-button w3-blue-gray">Conseil de publication</button></a>
+	</div>
+
+ </div>
+ </div>
+	
+ <!-- Zurück zum Start -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+		<a href="./index.html"><button class="w3-button w3-blue-grey">Retour</button></a>
+	</div>
+	
+
+<!-- Kontakt -->	
+ <div class="w3-theme-d3">
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Kontakt">
+	<p class="w3-center" id="kontakt">Envie de collaborer? Envoyez un e-mail à</p>
+	<p class="w3-center"><b>kori.z.weber[at]gmail.com</b></p>
+	
+	<p class="w3-center" id="kontakt">Ou sur <a href="https://linkedin.com/in/dr-korinna-zinovia-weber-05516996">LinkedIn</a> </p>
+	
+	</div>
+	
+	
+<!-- Impressum -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="impressum">
+	<p class="w3-center" id="kontakt"><a href="./impressum.html">Impressum, Datenschutz usw.</a></p>
+	</div>
+
+  
+<!-- End Page Content -->
+</div>
+ </div>
+ </div>
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>

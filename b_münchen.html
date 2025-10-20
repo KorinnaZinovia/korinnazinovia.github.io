@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Korinna Zinovia Weber</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Persönliche Webseite von Korinna Zinovia Weber">
+	<meta name="keywords" content="Korinna Zinovia Weber, Korinna Weber, Denkmalpflege, Architektur">
+	<meta name="author" content="Korinna Zinovia Weber">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+<style>
+	  .book-panel {
+    width: 100%;
+    height: 320px; /* Gesamthöhe des Panels (inkl. Bild und ggf. Text) */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .book-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Bild wird zugeschnitten, um Fläche zu füllen */
+    display: block;
+  }
+
+  .w3-row-padding .w3-third {
+    display: flex;
+    flex-direction: column;
+  }
+   .book-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .book-cover {
+      width: 220px;
+      min-width: 180px;
+      height: auto;
+      object-fit: cover;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 8px #eee;
+    }
+
+    .book-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .book-title {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+	.book-subtitle {
+  	 font-size: 1.25em;
+   	 color: #666;
+  	 margin-bottom: 0.5em;}
+
+    .book-details {
+      font-size: 0.95em;
+      color: #666;
+      margin-top: 0.5em;}
+
+
+    /* Responsive Design: Bei kleinen Bildschirmen Bild oben */
+    @media (max-width: 600px) {
+      .book-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;}
+      .book-cover {
+        margin-bottom: 15px;
+        margin-right: 0;}
+      .book-info {
+        align-items: center;}}
+
+	  .fixed-button {
+    width: 180px;
+    height: 45px;
+    font-size: 1.1em;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    padding: 0;}
+	  /* Globale Schriftart */
+    body {
+      font-family: 'Merriweather', serif;
+    }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+	<div class="w3-top w3-theme-l1 w3-wide w3-padding w3-card" style="width:100%">
+  <div class="w3-bar w3-blue-gray w3-card w3-large w3-center w3-hide-small" style="width:100%">
+  	<a href="index.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Start</a> 
+	<a href="buecher.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Bücher</a> 
+	<a href="angebote.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Angebote</a>
+	<a href="lebenslauf.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Portrait</a>
+	<a href="#Kontakt" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Kontakt</a>
+  </div>
+</div>
+
+<!-- Top menu on small screens -->
+	<header class="w3-container w3-top w3-hide-large w3-hide-medium w3-blue-gray w3-large w3-padding-medium">
+  		<a href="index.html" class="w3-button w3-blue-gray w3-margin-right">Start</a> <a href="index.html#kontakt" class="w3-button w3-blue-gray w3-margin-right">Kontakt</a>
+	</header>
+
+<!-- Banner -->
+	<img src="img/buechertisch.jpg" alt="Strati" style="width:100%">
+
+<!-- Page content -->
+<div class="w3-container w3-content w3-padding-24" style="max-width:800px" id="start">
+
+ <!-- Buchcover und Link -->	
+ <div class="book-container">
+    <img src="img/pantes.webp" alt="Buchtitel" class="book-cover">
+    <div class="book-info">
+      	<div class="book-title">Die Griechisch-Orthodoxe Allerheiligenkirche in München</div>
+      	<div class="book-subtitle">Ein Bauprojekt der Ökumene als kulturelle und geistige Brücke zwischen Ost und West.</div>	
+			<div class="book-details">
+			 Korinna Zinovia Weber<br>
+			 1. Auflage 2023<br>
+			 Kunstverlag Josef Fink<br>
+       ISBN: 978-3-95976-457-5<br>
+			 160 Seiten<br>
+			 Deutsch<br>
+      </div>
+      
+		 <!-- Button jetzt Bestellen -->
+      	 <a class="w3-button w3-khaki w3-margin-top fixed-button" href="https://kunstverlag-fink.de/titel/die-griechisch-orthodoxe-allerheiligenkirche-in-muenchen/" target="_blank">Jetzt bestellen!</a>
+    	</div>
+    </div>
+ </div>
+
+ <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="buch">
+ 
+ <!-- Buchbeschrieb -->	
+	<p class="w3-justify">Die zwischen 1993 und 1995 errichtete Griechisch-Orthodoxe Allerheiligenkirche an der Ungererstraße in München hat für ihre Gemeinde, die Stadt und die Ökumene eine besondere Bedeutung. Ihre Vorgeschichte beginnt bereits Anfang der 1980er Jahre – damals wurde der Griechisch-Orthodoxen Gemeinde die an gleicher Stelle befindliche, 1929 nach Plänen von Richard Steidle erbaute katholische Allerseelenkirche von der Erzdiözese München und Freising zur Nutzung zur Verfügung gestellt. In die heutige Kirche, entworfen und gebaut von Robert Brannekämper sen., wurden Teile der Bestandsmauern integriert und zugleich traditionelle Bauelemente orthodoxer Kirchen mit zeitgenössischem Aussehen verbunden.
+	Dieses Buch dokumentiert erstmals die umfangreiche Baugeschichte beider Kirchen mit bisher unpubliziertem Archivmaterial und trägt damit als proaktive Denkmalpflege zur langfristigen Erhaltung und historischen Einordnung des heutigen Bauwerks bei.
+</p><br>
+
+ <!-- Details Titel 1 -->	
+ <h3 class="w3-opacity w3-left-align">Video zum Buch</h3>
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/G6wy2WaqTNE?si=I0g74EM1ZdZuP2qQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	
+	<p class="w3-justify"> Anfang Oktober 2023 ist mein Buch «Die Griechisch-Orthodoxe Allerheiligenkirche in München» beim <a href="https://kunstverlag-fink.de/titel/die-griechisch-orthodoxe-allerheiligenkirche-in-muenchen/">Kunstverlag Josef Fink</a> erschienen.</p>
+	<p class="w3-justify"> Das Buch befasst sich mit einem besonderen Umbau: Aus der 1929 erbauten Röm.-Kath. Allerseelenkirche ist in den 1990er Jahren die Gr.-Orth. Allerheiligenkirche geworden. Es soll ein Beitrag zu „proaktiver“ Denkmalpflege für einen noch jungen Sakralbau sein, der noch nicht als Denkmal anerkannt ist. Bereichert wird das Buch durch Vorwörter von Metropolit Augustinos von Deutschland, Kardinal Friedrich Wetter und Prof. Andreas Putz von der TU München und bisher nicht publiziertem Archivmaterial zu beiden Kirchen.</p>
+	<p class="w3-justify"> Von der ersten Zeile im Manuskript bis zum fertigen Buch sind 14 Monate vergangen. Das Endprodukt entstand in engem Dialog mit dem Verlag, meinem graphischen Berater Andreas Thuy und wurde mit viel Aufmerksamkeit von Rudolf Winterstein lektoriert. Die Druckkosten wurden zum Teil von der <a href="https://www.boehringer-geisteswissenschaften.de/">Geschwister Boehringer Ingelheim Stiftung</a> mitfinanziert. Das Buch wurde erstmalig als Workshop im <a href="https://www.zikg.eu/aktuelles/veranstaltungen/2023/workshop-korinna-zinovia-weber">Zentralinstitut für Kunstgeschichte</a> am 25. Oktober 2023 vorgestellt. Die offizielle Buchvorstellung fand am 27. November 2023 in München vor 100 geladenen Gästen statt. </p>
+
+	<p class="w3-justify"> Am 17. November 2023 führte Karin Berkemann von <a href="https://www.moderne-regional.de/kleinkirchen-pilgern-korinna-weber-allerheiligenkirche-muenchen/">moderneRegional</a>	ein Gespräch mit mir zu meiner Forschung.
+	</p>
+	
+	<p class="w3-justify"> Am 22. November 2023 erschien ein Interview mit mir über das Buch in der <a href="https://www.griechenland.net/">Griechenlandzeitung</a>.
+	</p><br>
+
+ <!-- Details Titel 2 -->	
+ <h3 class="w3-opacity w3-left-align">Stimmen zum Buch</h3>
+	<p class="w3-justify"><i>"(...) Es wird weitere solcher Arbeiten bedürfen um DenkmalpflegerInnen, die noch in der Regel aus eher anderen Hintergründen kommen, für die ein gr.-orth. Raum wahrscheinlich erstmal eher mit fremden Momenten aufwartet eine Brücke zu schlagen auch das in ein Instrumentarium zu bekommen damit umzugehen, genauso wie wir dann solche Arbeiten für andere religiöse Gemeinschaften mit unterschiedlichen kulturellen und landesbezogenen Hintergründen brauchen werden. Insofern, kann ich sehr empfehlen bei Josef Fink Verlag erschienen, wie gewohnt sehr bibliophil ‚Die Gr.-Orth. Allerheiligenkirche in München‘ von Korinna Weber und in einem sehr schönen Vorwort von Andreas Putz." Karin Berkemann aus dem Podcast ModerneRegional</i>
+	</p>
+	
+	<p class="w3-justify"><i>"(…) Inwiefern Beziehungen und gesellschaftliche Gegebenheiten (Gesetze und Mehrheitsmeinungen) ein architektonisches Gebäude beeinflussen ist wirklich ein Thema, welches mit extrem viel Liebe zum Detail hier behandelt wird (z. B. beim Glockenturm). Die griechische-orthodoxe Geschichte wird anhand ihrer Baukultur mit tiefen Einblicken erzählt (Bemalungen, aber auch die Situation mit den weißen Kykladen, die das Bild von Griechenland aus zentraleuropäischer, touristischer Sicht prägen).
+
+	Die Qualität der Pläne, Layout und Fotos ist extrem hoch. Nicht nur das Material selbst sondern auch die Platzierung bei den passenden Themen. Fotos vom Bau helfen sehr ein Verständnis der Materialität zu bekommen und den Neubau in seiner Zeit zu lesen und das Gesamtthema von Architektur nicht als lineare Entwicklung, sondern als komplexes System von Raum-Zeit-Abhängigkeiten zu verstehen. 
+
+	Das Kapitel zur Denkmalpflege gibt dem Lesenden ein gutes Verständnis über wie die Denkmalpflege funktioniert und beleuchtet so nochmals einen weiteren Aspekt der Architekturpolitik.
+
+	Der Epilog mit deiner persönliche Beziehung zu der Situation, die der wissenschaftlichen Arbeit nochmal einmal mehr eine persönliche Note verleiht, aber auch nochmals die Tiefe der Verflechtungen einen Schritt weiter treibt, indem die vierte Wand von absoluter Objektivität der Wissenschaft absichtlich gebrochen wird."
+
+	Martin Roesch, MSc ETH Architektur</i>
+	</p>
+	
+	<p class="w3-justify"><i>"(...) die großartigen Fotos der Außen- und Innenaufnahmen, die präzisen Zeichnungen über die Umbauphase und die Fotos über den liturgischen Vollzug der Umwandlung aus einem ehemaligen katholischen Gotteshaus in eine Griechisch-Orthodoxe Kirche im Beisein von Metropolit Augoustinos und Kardinal Friedrich Wetter machen diese Publikation zu einem einzigartigen Dokument einer Kirchenneu-Nutzung durch eine  andere Konfessionskirche." Dr. Christian Hohmann, Pfarrer für Orthodoxie, Catholica und Arbeitsgemeinschaft Christlicher Kirchen in NRW</i>
+	</p>
+	
+	<p class="w3-justify"><i>"Griechisch-Bayerische Freundschaft aus architektonischer Sicht. Ein faszinierendes Kapitel moderner Münchner Architekturgeschichte" Armin Vetter, Vetter Marketing & Services</i>
+	</p>
+
+<!-- Das könnte Sie auch interessieren -->	
+ <h3 class="w3-opacity w3-left-align">Das könnte Sie auch interessieren:</h3>
+<div class="w3-row-padding">
+
+ <!-- Buch -->
+	<div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card book-panel">
+			<a href="b_steinhausen.html">
+			<img src="img/Steinhausen.jpg" alt="Langensteinen" class="w3-hover-opacity"></a>
+		</div>
+	</div>
+
+ </div>
+
+<!-- Publikationsberatung -->	
+<p class="w3-center"><b>Haben Sie Interesse Ihr eigenes Buchprojekt zu verwirklichen? Gerne begleite ich Sie dabei!</b></p>
+
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+	<a href="angebote.html#publikation"><button class="w3-button w3-blue-grey">Publikationsberatung</button></a>
+	</div>
+  
+ </div>
+ </div>
+	
+ <!-- Zurück zum Start -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+		<a href="./index.html"><button class="w3-button w3-blue-grey">Zurück zum Start</button></a>
+	</div>
+
+<!-- Kontakt -->	
+ <div class="w3-theme-d3">
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Kontakt">
+	<p class="w3-center" id="kontakt">Lust auf eine Zusammenarbeit? Schreiben Sie eine Email an </p>
+	<p class="w3-center"><b>kori.z.weber[at]gmail.com</b></p>
+	
+	<p class="w3-center" id="kontakt">Oder über <a href="https://linkedin.com/in/dr-korinna-zinovia-weber-05516996">LinkedIn</a> </p>
+	
+	</div>
+	
+	
+<!-- Impressum -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="impressum">
+	<p class="w3-center" id="kontakt"><a href="./impressum.html">Impressum, Datenschutz usw.</a></p>
+	</div>
+
+  
+<!-- End Page Content -->
+</div>
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>

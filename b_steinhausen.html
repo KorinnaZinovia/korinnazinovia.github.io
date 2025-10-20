@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Korinna Zinovia Weber</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Persönliche Webseite von Korinna Zinovia Weber">
+	<meta name="keywords" content="Korinna Zinovia Weber, Korinna Weber, Denkmalpflege, Architektur">
+	<meta name="author" content="Korinna Zinovia Weber">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+    .book-panel {
+    width: 100%;
+    height: 320px; /* Gesamthöhe des Panels (inkl. Bild und ggf. Text) */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .book-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Bild wird zugeschnitten, um Fläche zu füllen */
+    display: block;
+  }
+
+  .w3-row-padding .w3-third {
+    display: flex;
+    flex-direction: column;
+  }
+   .book-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .book-cover {
+      width: 220px;
+      min-width: 180px;
+      height: auto;
+      object-fit: cover;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 8px #eee;
+    }
+
+    .book-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .book-title {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+	.book-subtitle {
+  	 font-size: 1.25em;
+   	 color: #666;
+  	 margin-bottom: 0.5em;}
+
+    .book-details {
+      font-size: 0.95em;
+      color: #666;
+      margin-top: 0.5em;}
+
+
+    /* Responsive Design: Bei kleinen Bildschirmen Bild oben */
+    @media (max-width: 600px) {
+      .book-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;}
+      .book-cover {
+        margin-bottom: 15px;
+        margin-right: 0;}
+      .book-info {
+        align-items: center;}}
+
+	  .fixed-button {
+    width: 180px;
+    height: 45px;
+    font-size: 1.1em;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    padding: 0;}
+
+	  /* Globale Schriftart */
+    body {
+      font-family: 'Merriweather', serif;
+    } 
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+	<div class="w3-top w3-theme-l1 w3-wide w3-padding w3-card" style="width:100%">
+  <div class="w3-bar w3-blue-gray w3-card w3-large w3-center w3-hide-small" style="width:100%">
+  	<a href="index.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Start</a> 
+	<a href="buecher.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Bücher</a> 
+	<a href="angebote.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Angebote</a>
+	<a href="lebenslauf.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Portrait</a>
+	<a href="#Kontakt" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Kontakt</a>
+  </div>
+</div>
+
+<!-- Top menu on small screens -->
+	<header class="w3-container w3-top w3-hide-large w3-hide-medium w3-blue-gray w3-large w3-padding-medium">
+  		<a href="index.html" class="w3-button w3-blue-gray w3-margin-right">Start</a> <a href="index.html#kontakt" class="w3-button w3-blue-gray w3-margin-right">Kontakt</a>
+	</header>
+
+<!-- Banner -->
+	<img src="img/tisch.JPG" alt="Strati" style="width:100%">
+
+<!-- Page content -->
+<div class="w3-container w3-content w3-padding-24" style="max-width:800px" id="start">
+
+ <!-- Buchcover und Link -->	
+ <div class="book-container">
+    <img src="img/Steinhausen.jpg" alt="Buchtitel" class="book-cover">
+    <div class="book-info">
+      	<div class="book-title">Kirchen- und Begegnungszentrum Chilematt, Steinhausen.</div>
+      	<div class="book-subtitle">Architektur- und Kunstführer.</div>	
+			<div class="book-details">
+			     Korinna Zinovia Weber, Lou Sophie Dörig<br>
+			     Erscheint im November 2025<br>
+			     Kunstverlag Josef Fink<br>
+           48 Seiten<br>
+           Deutsch<br>
+
+      		</div>
+		 <!-- Button jetzt Bestellen -->
+      	 <a class="w3-button w3-khaki w3-margin-top fixed-button" href="https://kunstverlag-fink.de/" target="_blank">Bald Bestellen!</a>
+    	</div>
+    </div>
+ </div>
+
+ <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="buch">
+ 
+<!-- Buchbeschrieb -->	
+	<p class="w3-justify">Der Architektur- und Kunstführer erscheint im November 2025 beim Kunstverlag Josef Fink.
+</p>
+<p class="w3-justify"> Die Kath. Kirchengemeinde Steinhausen wünschte sich für ihr Kirchen- und Begegnungszentrum "Chilematt", erbaut von Ernst Gisel 1981-1983, einen hochwertigen kleinen Kunstführer. Gemeinsam mit Lou Sophie Dörig fertigten wir den Führer innerhalb von fünf Monaten.
+</p><br>
+
+<!-- Über die Autorinnen -->	
+ <h3 class="w3-opacity w3-left-align">Über die Autorinnen</h3>
+	
+	<p class="w3-justify"><b>Dr. Korinna Zinovia WEBER</b> hat Architektur an der TU München und ENSA Paris-La Villette studiert und an der EPF Lausanne über Sanierungen im Massenwohnungsbau der Nachkriegszeit promoviert. Von 2019 bis 2023 war sie Lehrbeauftragte an der ETH Zürich und erhielt vom Zentralinstitut für Kunstgeschichte in München den Theodor-Fischer-Preis 2022. Sie ist Autorin verschiedener Publikationen: «Die Griechisch-Orthodoxe Allerheiligenkirche in München» (Kunstverlag Josef Fink, 2023), «Mein NEUES altes Haus» (Architechne, 2024) und «Grands Ensembles en Héritage» (Editions de la Villette, 2025). Wenn sie gerade keine Bücher schreibt, erkundet sie gemeinsam mit ihren Kindern die Welt oder tanzt Ballett.
+ </p>
+  <a href="https://linkedin.com/in/dr-korinna-zinovia-weber-05516996" class="w3-button w3-blue-gray w3-hover-dark-grey" style="padding:6px 10px;">
+  <i class="fab fa-linkedin"></i>
+  </a>
+
+ 	<p class="w3-justify"><b>Lou Sophie Dörig</b> absolvierte ihren Bachelor in Architektur an der ETH Zürich und sammelte anschliessend Berufserfahrung in Architekturbüros in Zürich und Hamburg. Derzeit studiert sie im Master an der ETH, mit besonderem Interesse an kontextsensibler Gestaltung, sozial wirksamen Interventionen und experimentellen Bauansätzen. In ihrer Freizeit findet sie Ausgleich beim Klettern und Inspiration beim Lesen und Schreiben.
+ </p>
+  <a href="https://linkedin.com/in/lou-sophie-dörig-49b555162" class="w3-button w3-blue-gray w3-hover-dark-grey" style="padding:6px 10px;">
+  <i class="fab fa-linkedin"></i>
+  </a>
+
+	<br>
+
+<!-- Das könnte Sie auch interessieren -->	
+ <h3 class="w3-opacity w3-left-align">Das könnte Sie auch interessieren:</h3>
+<div class="w3-row-padding">
+
+<!-- Buch -->
+	<div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card book-panel">
+			<a href="b_münchen.html">
+			<img src="img/pantes.webp" alt="pantes" class="w3-hover-opacity"></a>
+		</div>
+	</div>
+
+ </div>
+
+ <!-- Publikationsberatung -->	
+ <p class="w3-center"><b>Haben Sie Interesse Ihr eigenes Buchprojekt zu verwirklichen? Gerne begleiten wir Sie dabei!</b></p>
+
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+	<a href="angebote.html#publikation"><button class="w3-button w3-blue-grey">Publikationsberatung</button></a>
+	</div>
+  
+ </div>
+ </div>
+	
+<!-- Zurück zum Start -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+		<a href="./index.html"><button class="w3-button w3-blue-grey">Zurück zum Start</button></a>
+	</div>
+	
+<!-- Kontakt -->	
+ <div class="w3-theme-d3">
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Kontakt">
+	<p class="w3-center" id="kontakt">Lust auf eine Zusammenarbeit? Schreiben Sie eine Email an </p>
+	<p class="w3-center"><b>kori.z.weber[at]gmail.com</b></p>
+	
+	<p class="w3-center" id="kontakt">Oder über <a href="https://linkedin.com/in/dr-korinna-zinovia-weber-05516996">LinkedIn</a> </p>
+	
+	</div>
+	
+	
+<!-- Impressum -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="impressum">
+	<p class="w3-center" id="kontakt"><a href="./impressum.html">Impressum, Datenschutz usw.</a></p>
+	</div>
+
+  
+<!-- End Page Content -->
+</div>
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>

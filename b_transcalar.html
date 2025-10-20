@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Korinna Zinovia Weber</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Persönliche Webseite von Korinna Zinovia Weber">
+	<meta name="keywords" content="Korinna Zinovia Weber, Korinna Weber, Denkmalpflege, Architektur">
+	<meta name="author" content="Korinna Zinovia Weber">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+<style>
+    .book-panel {
+    width: 100%;
+    height: 320px; /* Gesamthöhe des Panels (inkl. Bild und ggf. Text) */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .book-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Bild wird zugeschnitten, um Fläche zu füllen */
+    display: block;
+  }
+
+  .w3-row-padding .w3-third {
+    display: flex;
+    flex-direction: column;
+  }
+   .book-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .book-cover {
+      width: 220px;
+      min-width: 180px;
+      height: auto;
+      object-fit: cover;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 8px #eee;
+    }
+
+    .book-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .book-title {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+	.book-subtitle {
+  	 font-size: 1.25em;
+   	 color: #666;
+  	 margin-bottom: 0.5em;}
+
+    .book-details {
+      font-size: 0.95em;
+      color: #666;
+      margin-top: 0.5em;}
+
+
+    /* Responsive Design: Bei kleinen Bildschirmen Bild oben */
+    @media (max-width: 600px) {
+      .book-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;}
+      .book-cover {
+        margin-bottom: 15px;
+        margin-right: 0;}
+      .book-info {
+        align-items: center;}}
+
+	  .fixed-button {
+    width: 180px;
+    height: 45px;
+    font-size: 1.1em;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    padding: 0;}
+    
+  /* Globale Schriftart */
+    body {
+      font-family: 'Merriweather', serif;
+    }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+	<div class="w3-top w3-theme-l1 w3-wide w3-padding w3-card" style="width:100%">
+  <div class="w3-bar w3-blue-gray w3-card w3-large w3-center w3-hide-small" style="width:100%">
+  	<a href="index.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Start</a> 
+	<a href="buecher.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Bücher</a> 
+	<a href="angebote.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Angebote</a>
+	<a href="lebenslauf.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Portrait</a>
+	<a href="#Kontakt" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Kontakt</a>
+  </div>
+</div>
+
+<!-- Top menu on small screens -->
+	<header class="w3-container w3-top w3-hide-large w3-hide-medium w3-blue-gray w3-large w3-padding-medium">
+  		<a href="index.html" class="w3-button w3-blue-gray w3-margin-right">Start</a> <a href="index.html#kontakt" class="w3-button w3-blue-gray w3-margin-right">Kontakt</a>
+	</header>
+
+<!-- Banner -->
+  <div class="w3-display-container" style="width:100%">
+	<img src="img/Transcalar_cover.jpg" alt="books" style="width:100%">
+  <div class="w3-display-bottomright w3-padding-medium w3-opacity w3-white"> Foto: Laura Trazic
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-container w3-content w3-padding-24" style="max-width:800px" id="start">
+
+<!-- Buchcover und Link -->	
+ <div class="book-container">
+    <img src="img/Transcalar.jpg" alt="Buchtitel" class="book-cover">
+    <div class="book-info">
+      	<div class="book-title">Transcalar Prospects in Climate Crisis- architectural research in re/action</div>
+			<div class="book-details">
+			     Edited by Jeffrey Huang, Dieter Dietz, Laura Trazic, Korinna Zinovia Weber<br>
+           Design: Hubertus Design<br>
+           With photographs by Etienne Malapert, Alain Herzog<br>
+           First Edition 2025<br>
+			     Lars Müller Publishers<br>
+        	 ISBN 978-3-03778-765-6<br>
+           384 pages<br>
+           English<br>
+
+      		</div>
+<!-- Button jetzt Bestellen -->
+      	 <a class="w3-button w3-khaki w3-margin-top fixed-button" href="https://www.lars-mueller-publishers.com/transcalar-prospects-climate-crisis/" target="_blank">Order now!</a>
+    	</div>
+    </div>
+ </div>
+
+ <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="buch">
+ 
+
+<!-- Buchbeschrieb -->
+ <h3 class="w3-opacity w3-left-align">Blurb</h3>
+	<p class="w3-justify">As humanity grapples with the escalating challenges of climate change, the discipline of architecture finds itself at a critical juncture. The urgency of the situation demands that schools of architecture not only contribute to envisioning more serene futures but also equip the next generation of architects with the audacity to question, project, criticize, explore and imagine alternative solutions.
+  Architectural research is in re/action to this climate crisis. “Transcalar Prospects in Climate Crisis” offers a vital compilation of research projects and essays reflecting the investigative efforts at EPFL Architecture. Addressing critical issues like material uses, land and soil degradation, environmental justice and circular urban flows, the book brings together diverse, entangled perspectives 
+  and transcalar vantage points. It navigates complex factors such as comfort, standards, profit and individual needs, across a wide ecological spectrum. The book is a must-read for architects, urban planners, designers, scholars, and anyone seeking knowledge and inspiration for climate action, urging a conscious and critical, transcalar response to one of the most pressing issues of our time.  
+  </p>
+  <p class="w3-justify">With essays by Charlotte Malterre-Barthes, Paola Viganò, Tommaso Pietropolli, Laila Seewang, Alfredo Thiermann, Xavier Nueno, Pier Vittorio Aureli, Jo Taillieu, Véronique Patteeuw, Martin Fröhlich, Lara Monti.
+   </p>
+  <br>
+  
+  <h3 class="w3-opacity w3-left-align">What was I responsible for?</h3>
+  <p class="w3-justify">Jeffrey Huang contacted me to join the editorial board because they were looking for someone with experience in book making - which I had - in order to turn an exhibition at Archizoom into a book. I gathered all the material from the constributers, pre-selected it and worked in close collaboration with Jonas Vögeli from Hubertus Design for the look and feel. The colored pages for the essay was an idea I had in the first meeting and I am glad Jonas picked it up until the very end...The book was awarded "Most beautiful German Book in the category 'Science'". More information <a href="https://www.stiftung-buchkunst.de/die-schoensten-deutschen-buecher/die-praemierten/transcalar-prospects-in-climate-crisis/?view=grid&year=2025">here.</a>
+  </p> 
+ 
+
+<!-- You may also be interested in -->	
+ <h3 class="w3-opacity w3-left-align">You may also be interested in:</h3>
+<div class="w3-row-padding">
+
+ <!-- Buch -->
+	<div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card book-panel">
+			<a href="b_million.html">
+			<img src="img/million.jpg" alt="Langensteinen" class="w3-hover-opacity"></a>
+		</div>
+	</div>
+
+ <!-- Artikel 1 -->
+	<div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card book-panel">
+			<a href="https://www.routledge.com/The-Monumental/Loukaki/p/book/9781032857497">
+			<img src="img/monumental.jpg" alt="Transcalar" class="w3-hover-opacity"></a>
+		</div>
+	</div>
+
+ <!-- Artikel 2 -->
+	<div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card book-panel">
+			<a href="https://www.abebooks.com/FRENCH-ARTISTIC-CULTURE-CENTRAL-EAST-EUROPEAN-MODERN/22761446115/bd">
+			<img src="img/art.jpg" alt="Transcalar" class="w3-hover-opacity"></a>
+		</div>
+	</div>
+
+  </div>
+
+<!-- Publikationsberatung -->	
+<p class="w3-center"><b>Are you interested in realising your own book project? I would be happy to assist you!</b></p>
+
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+	<a href="angebote.html#publikation"><button class="w3-button w3-blue-grey">Publishing Advice</button></a>
+	</div>
+
+ </div>
+ </div>
+	
+ <!-- Zurück zum Start -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+		<a href="./index.html"><button class="w3-button w3-blue-grey">Back to Start</button></a>
+	</div>
+	
+<!-- Kontakt -->	
+ <div class="w3-theme-d3">
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Kontakt">
+	<p class="w3-center" id="kontakt">Interested in working with me? Send an email to </p>
+	<p class="w3-center"><b>kori.z.weber[at]gmail.com</b></p>
+	
+	<p class="w3-center" id="kontakt">Or on <a href="https://linkedin.com/in/dr-korinna-zinovia-weber-05516996">LinkedIn</a> </p>
+	
+	</div>
+	
+	
+<!-- Impressum -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="impressum">
+	<p class="w3-center" id="kontakt"><a href="./impressum.html">Impressum, Datenschutz usw.</a></p>
+	</div>
+
+  
+<!-- End Page Content -->
+</div>
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>

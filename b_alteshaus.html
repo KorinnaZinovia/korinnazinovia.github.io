@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Korinna Zinovia Weber</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Persönliche Webseite von Korinna Zinovia Weber">
+	<meta name="keywords" content="Korinna Zinovia Weber, Korinna Weber, Denkmalpflege, Architektur">
+	<meta name="author" content="Korinna Zinovia Weber">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+  .mySlides {display:none;}
+   .book-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .book-cover {
+      width: 220px;
+      min-width: 180px;
+      height: auto;
+      object-fit: cover;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 8px #eee;
+    }
+
+    .book-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .book-title {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+	.book-subtitle {
+  	 font-size: 1.25em;
+   	 color: #666;
+  	 margin-bottom: 0.5em;}
+
+    .book-details {
+      font-size: 0.95em;
+      color: #666;
+      margin-top: 0.5em;}
+
+
+    /* Responsive Design: Bei kleinen Bildschirmen Bild oben */
+    @media (max-width: 600px) {
+      .book-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;}
+      .book-cover {
+        margin-bottom: 15px;
+        margin-right: 0;}
+      .book-info {
+        align-items: center;}}
+
+	  .fixed-button {
+    width: 180px;
+    height: 45px;
+    font-size: 1.1em;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    padding: 0;}
+
+	  /* Globale Schriftart */
+    body {
+      font-family: 'Merriweather', serif;
+    } 
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+	<div class="w3-top w3-theme-l1 w3-wide w3-padding w3-card" style="width:100%">
+  <div class="w3-bar w3-blue-gray w3-card w3-large w3-center w3-hide-small" style="width:100%">
+  	<a href="index.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Start</a> 
+	<a href="buecher.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Bücher</a> 
+	<a href="angebote.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Angebote</a>
+	<a href="lebenslauf.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Portrait</a>
+	<a href="#Kontakt" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Kontakt</a>
+  </div>
+</div>
+
+<!-- Top menu on small screens -->
+	<header class="w3-container w3-top w3-hide-large w3-hide-medium w3-blue-gray w3-large w3-padding-medium">
+  		<a href="index.html" class="w3-button w3-blue-gray w3-margin-right">Start</a> <a href="index.html#kontakt" class="w3-button w3-blue-gray w3-margin-right">Kontakt</a>
+	</header>
+
+<!-- Banner --> 
+<div class="banner-container" style="position: relative; display: inline-block; width: 100%; margin: auto;">
+  <img src="img/kreislauf.jpg" alt="Strati" style="width: 100%; display: block;">
+  <div id="bannerFotoHinweis" style="position: absolute; bottom: 0px; right: 0px; background-color: lightgray; padding: -10px; font-family: 'Merriweather', serif; font-size: 0.9em; color: asphalt; border-radius: 0px;">
+    Foto: Sereina Fritsche
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-container w3-content w3-padding-24" style="max-width:800px" id="start">
+
+<!-- Buchcover und Link -->	
+ <div class="book-container">
+    <img src="img/altesHaus.jpg" alt="Buchtitel" class="book-cover">
+    <div class="book-info">
+      	<div class="book-title">Mein NEUES altes Haus - eine Geschichte für Kinder über Umbau statt Neubau.</div>
+			<div class="book-details">
+			     Korinna Zinovia Weber, Meruert Zharekesheva<br>
+			     Architechne, Print-on-demand, 2024<br>
+           20 feste Seiten für kleine Hände<br>
+           Deutsch, French, English, Greek, Hungarian, Dutch, Italian<br>
+
+      		</div>
+		<!-- Button jetzt Bestellen --> 
+      	 <a class="w3-button w3-khaki w3-margin-top fixed-button" href="https://architechne.ch/" target="_blank">Jetzt Bestellen!</a>
+      	 <a class="w3-button w3-blue-gray w3-margin-top fixed-button" href="https://architechne.ch/meinneuesalteshaus.html" target="_blank">Mehr Informationen</a>
+        </div>
+    </div>
+ </div>
+
+ <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="buch">
+ 
+<!-- Buchbeschrieb -->	
+	<p class="w3-justify">Dieses Buch erzählt die Geschichte der kleinen Lilian, deren hellblaues Haus abgerissen werden soll. Doch dann fragt sich Lilian, warum wir unsere Häuser eigentlich nicht zuerst reparieren und sie schreibt dem Besitzer einen Brief. Hier wird das Thema Nachhaltigkeit und Umbau in Architektur liebevoll den ganz Kleinen näher gebracht.
+</p>
+	<p class="w3-justify">Mit Texten und Typografie von Korinna Zinovia Weber und handgemalten Illustrationen von Meruert Zharekesheva.
+</p><br>
+
+<!-- Slideshow -->	 
+  <div class="w3-content w3-display-container">
+   <img class="mySlides" src="img/kinderbuch.jpg" style="width:100%">
+   <img class="mySlides" src="img/gemalteimg.jpg" style="width:100%">
+   <img class="mySlides" src="img/ZeichnungLS.jpg" style="width:100%">
+   <img class="mySlides" src="img/echteshaus.jpg" style="width:100%">
+   <img class="mySlides" src="img/Tisch-Bücher.jpg" style="width:100%">
+
+    <div id="fotoHinweis" class="w3-display-bottomright w3-padding-medium w3-opacity w3-white">
+      Foto: Sereina Fritsche
+    </div>
+
+   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+
+<!-- Mehr zum Buch -->	
+ <h3 class="w3-opacity w3-left-align">Mehr zum Buch</h3>
+	
+	<p class="w3-justify">Irgendwo in der Schweiz steht ein vierstöckiges Wohnhaus mit Mansardendach, das 1938 erbaut wurde – eine für seine Zeit typische lokale Architektur. Im Jahr 2023 wurde bekannt gegeben, dass es abgerissen und durch ein neues Gebäude ersetzt werden soll, das ausschließlich winzige Zimmer (9 m²) für Studenten bietet. 
+    Die Entscheidung des Eigentümers überraschte die Bewohner:innen. Einige der Familien waren gerade erst eingezogen, darunter eine junge Familie mit einem Neugeborenen. Während sie gegen die Wohnungsknappheit demonstrierten, schaffte es ihr Fall in die lokalen Zeitungen. 
+    Dieser Abriss ist nur einer von vielen in der Schweiz, aber auch in anderen Ländern, wo die Gentrifizierung die Einheimischen aus ihren Vierteln verdrängt. Dies inspirierte die Autorin Korinna Zinovia Weber, ein Kinderbuch zu diesem Thema zu schreiben:
+ </p>
+
+  <p class="w3-justify"><i>"Ich sah, wie meine Tochter reagierte, als ich ihr erzählte, dass das Haus neben unserem abgerissen werden soll und ihre Freundin deshalb wegziehen muss. Plötzlich wurde mir klar, dass wir mit unseren Kindern nicht genug über 
+    unsere (sich ständig verändernde) gebaute Umwelt sprechen und darüber, wie wir damit umgehen (sollten). Das inspirierte mich dazu, ein Kinderbuch zu diesem Thema zu schreiben."</i>
+  </p>
+
+ <br><br>
+
+<!-- Über die Autorinnen -->	
+  <img src="img/merukori.jpg" alt="Korinna Weber" class="w3-center" style="width:100%">
+
+ <h3 class="w3-opacity w3-left-align">Über die Autorinnen</h3>
+	
+	<p class="w3-justify"><b>Dr. Korinna Zinovia WEBER</b> hat dieses Buch geschrieben und die Schriftart LANGENRAIN entworfen, inspiriert von ihrem Nachbarhaus in der Schweiz. Sie studierte Architektur in München und Paris, promovierte später in Lausanne und interessiert sich seitdem unter anderem für die Geschichte von Häusern und deren mögliche Zukunft. Wenn sie gerade keine Bücher schreibt, erkundet sie gemeinsam mit ihren Kindern die Welt oder tanzt Ballett.
+ </p>
+  <a href="https://linkedin.com/in/dr-korinna-zinovia-weber-05516996" class="w3-button w3-blue-gray w3-hover-dark-grey" style="padding:6px 10px;">
+  <i class="fab fa-linkedin"></i>
+  </a>
+
+
+ <p class="w3-justify"><b>Meruert ZHAREKESHEVA</b> hat die Bilder in diesem Buch von Hand gezeichnet und mit Gouachefarben gemalt. Sie hat in München, Singapur und London Architektur studiert. In ihrem Alltag zeichnet sie Pläne für Häuser und besucht Baustellen. Fast genauso sehr wie das Studium der Architektur und Städte liebt sie das Malen und Tanzen von Hip-Hop oder Jazz. Als Kind wollte sie schon immer anderen Märchen erzählen und Figuren zum Leben erwecken.
+ </p>
+  <a href="https://linkedin.com/in/meruert-zharekesheva-4a6620a9" class="w3-button w3-blue-gray w3-hover-dark-grey" style="padding:6px 10px;">
+  <i class="fab fa-linkedin"></i>
+  </a>
+
+	<br>  
+  <br>  
+
+ <img src="img/langensteinen.jpg" alt="Korinna Weber" class="w3-center" style="width:100%">
+
+<!-- Publikationsberatung -->	
+<p class="w3-center"><b>Haben Sie Interesse Ihr eigenes Buchprojekt zu verwirklichen? Gerne begleite ich Sie dabei!</b></p>
+
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+	<a href="angebote.html#publikation"><button class="w3-button w3-blue-gray">Publikationsberatung</button></a>
+	</div>
+  
+ </div>
+ </div>
+	
+ <!-- Zurück zum Start -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+		<a href="./index.html"><button class="w3-button w3-blue-grey">Zurück zum Start</button></a>
+	</div>
+	
+<!-- Kontakt -->	
+ <div class="w3-theme-d3">
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Kontakt">
+	<p class="w3-center" id="kontakt">Lust auf eine Zusammenarbeit? Schreiben Sie eine Email an </p>
+	<p class="w3-center"><b>kori.z.weber[at]gmail.com</b></p>
+	
+	<p class="w3-center" id="kontakt">Oder über <a href="https://linkedin.com/in/dr-korinna-zinovia-weber-05516996">LinkedIn</a> </p>
+	
+	</div>
+	
+	
+<!-- Impressum -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="impressum">
+	<p class="w3-center" id="kontakt"><a href="./impressum.html">Impressum, Datenschutz usw.</a></p>
+	</div>
+
+  
+<!-- End Page Content -->
+</div>
+
+
+
+<script>
+let slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let fotoHinweis = document.getElementById("fotoHinweis");
+  if (n > slides.length) { slideIndex = 1; }
+  if (n < 1) { slideIndex = slides.length; }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+
+  // Foto-Hinweis nur beim ersten Bild anzeigen
+  if (slideIndex === 1) {
+    fotoHinweis.style.display = "block";
+  } else {
+    fotoHinweis.style.display = "none";
+  }
+}
+
+</script>
+
+
+</body>
+</html>

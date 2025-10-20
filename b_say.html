@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Korinna Zinovia Weber</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Persönliche Webseite von Korinna Zinovia Weber">
+	<meta name="keywords" content="Korinna Zinovia Weber, Korinna Weber, Denkmalpflege, Architektur">
+	<meta name="author" content="Korinna Zinovia Weber">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+    .book-panel {
+    width: 100%;
+    height: 320px; /* Gesamthöhe des Panels (inkl. Bild und ggf. Text) */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .book-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Bild wird zugeschnitten, um Fläche zu füllen */
+    display: block;
+  }
+
+  .w3-row-padding .w3-third {
+    display: flex;
+    flex-direction: column;
+  }
+   .book-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .book-cover {
+      width: 220px;
+      min-width: 180px;
+      height: auto;
+      object-fit: cover;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 8px #eee;
+    }
+
+    .book-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .book-title {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+	.book-subtitle {
+  	 font-size: 1.25em;
+   	 color: #666;
+  	 margin-bottom: 0.5em;}
+
+    .book-details {
+      font-size: 0.95em;
+      color: #666;
+      margin-top: 0.5em;}
+
+
+    /* Responsive Design: Bei kleinen Bildschirmen Bild oben */
+    @media (max-width: 600px) {
+      .book-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;}
+      .book-cover {
+        margin-bottom: 15px;
+        margin-right: 0;}
+      .book-info {
+        align-items: center;}}
+
+	  .fixed-button {
+    width: 180px;
+    height: 45px;
+    font-size: 1.1em;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    padding: 0;}
+
+	  /* Globale Schriftart */
+    body {
+      font-family: 'Merriweather', serif;
+    } 
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+	<div class="w3-top w3-theme-l1 w3-wide w3-padding w3-card" style="width:100%">
+  <div class="w3-bar w3-blue-gray w3-card w3-large w3-center w3-hide-small" style="width:100%">
+  	<a href="index.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Start</a> 
+	<a href="buecher.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Bücher</a> 
+	<a href="angebote.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Angebote</a>
+	<a href="lebenslauf.html" class="w3-bar-item w3-button w3-padding-medium w3-hide-medium w3-hide-small">Portrait</a>
+	<a href="#Kontakt" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">Kontakt</a>
+  </div>
+</div>
+
+<!-- Top menu on small screens -->
+	<header class="w3-container w3-top w3-hide-large w3-hide-medium w3-blue-gray w3-large w3-padding-medium">
+  		<a href="index.html" class="w3-button w3-blue-gray w3-margin-right">Start</a> <a href="index.html#kontakt" class="w3-button w3-blue-gray w3-margin-right">Kontakt</a>
+	</header>
+
+<!-- Banner -->
+	<img src="img/sayheader.jpg" alt="Strati" style="width:100%">
+
+<!-- Page content -->
+<div class="w3-container w3-content w3-padding-24" style="max-width:800px" id="start">
+
+ <!-- Buchcover und Link -->	
+ <div class="book-container">
+    <img src="img/say.jpg" alt="Buchtitel" class="book-cover">
+    <div class="book-info">
+      	<div class="book-title">SAY 25/26</div>
+      	<div class="book-subtitle">Schweizer Architektur Jahrbuch 2025/26</div>	
+			<div class="book-details">
+			     S. AM Schweizerisches Architekturmuseum,
+           Andreas Ruby,
+           werk, bauen + wohnen,
+           Roland Züger,
+           SAS Stiftung Architektur Schweiz <br>
+			     September 2025<br>
+			     Park Books<br>
+           ISBN 978-3-03860-456-3
+           280 Seiten<br>
+           Deutsch, Englisch, Französisch, Italienisch<br>
+
+      		</div>
+		 <!-- Button jetzt Bestellen -->
+      	 <a class="w3-button w3-khaki w3-margin-top fixed-button" href="https://www.park-books.com/produkt/say-25-26/1673" target="_blank">Jetzt Bestellen!</a>
+    	</div>
+    </div>
+ </div>
+
+ <div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="buch">
+ 
+<!-- Buchbeschrieb -->	
+	<p class="w3-justify">Das Swiss Architecture Yearbook (SAY) erscheint alle zwei Jahre. Dies ist die zweite Ausgabe.
+</p><br>
+
+<h3 class="w3-opacity w3-left-align">Für was war ich verantwortlich?</h3>
+<p class="w3-justify">Roland Züger holte mich ins Boot für diesen Budenzauber von Jahrbuch. Als "executive editor" durfte ich bei der Auswahlsitzung dabei sein und Protokoll führen, anschliessend gemeinsam mit Fabian Ruppanner Ideen liefern, das Material bei den Büros einholen, eine Vorauswahl der Bilder treffen, mit der Grafik kommunizieren, die Essays lektorieren und Autoren und Autorinnen betreuen. Auf gut Deutsch, eigentlich so ziemlich alles was hinter den Kulissen so eines Schinkens anfällt. Ich habe für das Buch sieben Projekttexte verfasst, fünf davon auf Französisch, die extern auf Englisch übersetzt wurden, hauptsächlich für Projekte in der Romandie, in Bonaduz und in Zürich.
+</p><br>
+
+<div class="w3-display-container" style="width:100%">
+	 <img src="img/sayjury.JPG" alt="books" style="width:100%">
+  	<div class="w3-display-bottomright w3-padding-medium w3-opacity w3-white"> Foto: Roland Züger
+  	</div>
+</div>
+	<br>
+
+<!-- Das könnte Sie auch interessieren -->	
+ <h3 class="w3-opacity w3-left-align">Das könnte Sie auch interessieren:</h3>
+<div class="w3-row-padding">
+
+<!-- Buch -->
+	<div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card book-panel">
+			<a href="b_transcalar.html">
+			<img src="img/Transcalar.jpg" alt="Transcalar" class="w3-hover-opacity"></a>
+		</div>
+	</div>
+
+<!-- Buch 2-->
+	<div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card book-panel">
+			<a href="b_million.html">
+			<img src="img/million.jpg" alt="million" class="w3-hover-opacity"></a>
+		</div>
+	</div>
+
+  <!-- Artikel -->
+	<div class="w3-third w3-margin-bottom">
+        <div class="w3-white w3-card book-panel">
+			<a href="https://www.wbw.ch/de/heft/aktuelle-ausgabe/102025-hybride-stadt.html">
+			<img src="img/wbw.jpg" alt="wbw" class="w3-hover-opacity"></a>
+		</div>
+	</div>
+
+ </div>
+
+ <!-- Publikationsberatung -->	
+ <p class="w3-center"><b>Haben Sie Interesse Ihr eigenes Buchprojekt zu verwirklichen? Gerne begleite ich Sie dabei!</b></p>
+
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+	<a href="angebote.html#publikation"><button class="w3-button w3-blue-grey">Publikationsberatung</button></a>
+	</div>
+  
+ </div>
+ </div>
+	
+<!-- Zurück zum Start -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Baufor">
+		<a href="./index.html"><button class="w3-button w3-blue-grey">Zurück zum Start</button></a>
+	</div>
+	
+<!-- Kontakt -->	
+ <div class="w3-theme-d3">
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="Kontakt">
+	<p class="w3-center" id="kontakt">Lust auf eine Zusammenarbeit? Schreiben Sie eine Email an </p>
+	<p class="w3-center"><b>kori.z.weber[at]gmail.com</b></p>
+	
+	<p class="w3-center" id="kontakt">Oder über <a href="https://linkedin.com/in/dr-korinna-zinovia-weber-05516996">LinkedIn</a> </p>
+	
+	</div>
+	
+	
+<!-- Impressum -->
+	<div class="w3-container w3-content w3-center w3-padding-24" style="max-width:800px" id="impressum">
+	<p class="w3-center" id="kontakt"><a href="./impressum.html">Impressum, Datenschutz usw.</a></p>
+	</div>
+
+  
+<!-- End Page Content -->
+</div>
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
