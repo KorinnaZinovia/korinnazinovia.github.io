@@ -50,6 +50,161 @@
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:60px">
 	</div>
+
+
+<!-- Gallerie -->	
+<head>
+  <meta charset="UTF-8">
+  <title>Galerie</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    .square {
+      position: relative;
+      width: 100%;
+      padding-top: 100%; /* 1:1 */
+      overflow: hidden;
+      background: #ddd;
+    }
+    .square img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    /* Overlay für den Titel */
+    .square .title-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 8px;
+      text-align: center;
+      font-size: 14px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    /* Hover-Effekt */
+    .square:hover img {
+      transform: scale(1.05);
+    }
+
+    .square:hover .title-overlay {
+      opacity: 1;
+    }
+
+    /* Link soll die ganze Fläche einnehmen */
+    .square a {
+      position: absolute;
+      inset: 0;
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body class="w3-light-grey">
+
+<div class="w3-content" style="max-width:800px">
+  <h2 class="w3-margin">Explorative Architekturvermittlung</h2>
+
+  <div class="w3-row-padding">
+  
+      <div class="w3-col s12 m6 l4 w3-margin-bottom">
+      <div class="square">
+        <a href="https://korinnaweber.com/b_pina.html" target="_blank">
+          <img src="img/pinabanner.jpg" alt="Bild 3">
+          <div class="title-overlay">Stimmen Raum geben</div>
+        </a>
+      </div>
+    </div>
+	
+	
+	<div class="w3-col s12 m6 l4 w3-margin-bottom">
+      <div class="square">
+        <a href="https://korinnaweber.com/angebote.html#Kinderlesungen" target="_blank">
+          <img src="img/Kinderlesungen.jpg" alt="Bild 3">
+          <div class="title-overlay">Abriss für Kinder</div>
+        </a>
+      </div>
+    </div>
+  
+
+    <div class="w3-col s12 m6 l4 w3-margin-bottom">
+      <div class="square">
+        <a href="https://korinnaweber.com/b_steinhausen.html" target="_blank">
+          <img src="img/steinhausen3.jpg" alt="Bild 1">
+          <div class="title-overlay">Zwei Kirchen unter einem Dach! Kunstführer Chilematt entdecken</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-col s12 m6 l4 w3-margin-bottom">
+      <div class="square">
+        <a href="https://korinnaweber.com/b_million.html" target="_blank">
+          <img src="img/candilis.jpg" alt="Bild 2">
+          <div class="title-overlay">Nachkriegsbauten in Frankreich</div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Zweite Reihe -->
+    <div class="w3-col s12 m6 l4 w3-margin-bottom">
+      <div class="square">
+        <a href="https://korinnaweber.com/b_transcalar.html" target="_blank">
+          <img src="img/Transcalar_cover.jpg" alt="Bild 1">
+          <div class="title-overlay">Architecture in re/action</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-col s12 m6 l4 w3-margin-bottom">
+      <div class="square">
+        <a href="https://korinnaweber.com/lebenslauf.html" target="_blank">
+          <img src="img/lesende.jpg" alt="Bild 2">
+          <div class="title-overlay">Mehr über mich</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-col s12 m6 l4 w3-margin-bottom">
+      <div class="square">
+        <a href="https://korinnaweber.com/angebote.html#Kinderlesungen" target="_blank">
+          <img src="img/filzhaus.jpg" alt="Bild 3">
+          <div class="title-overlay">Lesungen für Kinder, seit 2024</div>
+        </a>
+      </div>
+    </div>
+	
+	<div class="w3-col s12 m6 l4 w3-margin-bottom">
+      <div class="square">
+        <a href="https://korinnaweber.com/b_say.html" target="_blank">
+          <img src="img/sayjury.jpg" alt="Bild 3">
+          <div class="title-overlay">Hinter die Kulissen des Schweizer Architektur Jahrbuchs</div>
+        </a>
+      </div>
+    </div>
+	
+	<div class="w3-col s12 m6 l4 w3-margin-bottom">
+      <div class="square">
+        <a href="https://korinnaweber.com/b_m%C3%BCnchen.html" target="_blank">
+          <img src="img/vortrag.jpg" alt="Bild 2">
+          <div class="title-overlay">Umbau einer Kirche in München in den 1990er</div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+
+
 	
 
 
